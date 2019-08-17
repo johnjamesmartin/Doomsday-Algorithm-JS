@@ -1,0 +1,10 @@
+.text-muted {
+  color: lighten($col-gradient-2, 20%) !important;
+}
+
+.container {
+  @include center();
+  border: $guidelines;
+  margin-top: -35px;
+  height: 85vh;
+}

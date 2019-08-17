@@ -1,0 +1,16 @@
+{
+  "name": "John Martin",
+  "version": "0.0.1",
+  "description": "JS implementation of Doomsday algorithm",
+  "scripts": {
+    "start": "npm run webpack",
+    "build": "npm run compress-html && npm run compile-css && npm run start",
+    "webpack": "webpack -d --watch",
+    "compile-css": "sass src/scss/style.scss dist/css/style.css --style compressed",
+    "compress-html": "htmlmin -o dist/index.html src/index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.0.0"
+  }
+}
