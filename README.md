@@ -1,6 +1,6 @@
 # Doomsday Algorithm JS
 
-This is a JavaScript implementation of mathematician John Conway's "Doomsday" algorithm for calculating the day that any given date lies on.
+This is a JavaScript implementation of mathematician John Conway's "Doomsday" algorithm for calculating the day that any given date falls on.
 
 ## Installation
 
