@@ -11,6 +11,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "webpack": "^3.0.0"
+    "webpack": "^5.75.0"
   }
 }
